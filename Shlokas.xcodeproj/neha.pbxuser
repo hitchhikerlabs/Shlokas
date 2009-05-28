@@ -10,6 +10,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 911F43A10FCEF2670064B34D /* Shlokas */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Shlokas */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Shlokas */,
+		);
 		codeSenseManager = 911F43AE0FCEF26B0064B34D /* Code sense */;
 		executables = (
 			911F43A10FCEF2670064B34D /* Shlokas */,
@@ -77,5 +80,12 @@
 	911F43AE0FCEF26B0064B34D /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	911F43E20FCEFCC70064B34D /* ShloakViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 511}}";
+			sepNavSelRange = "{226, 0}";
+			sepNavVisRange = "{0, 235}";
+		};
 	};
 }
