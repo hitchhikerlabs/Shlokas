@@ -1,5 +1,12 @@
 // !$*UTF8*$!
 {
+	1D3623250D0F684500981E51 /* ShlokasAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 602}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 849}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Shlokas */ = {
 		activeExec = 0;
 		executables = (
@@ -60,6 +67,7 @@
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -67,6 +75,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = Shlokas;
+		savedGlobals = {
+		};
 		sourceDirectories = (
 		);
 	};
@@ -83,9 +93,17 @@
 	};
 	911F43E20FCEFCC70064B34D /* ShloakViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 511}}";
-			sepNavSelRange = "{226, 0}";
-			sepNavVisRange = "{0, 235}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 488}}";
+			sepNavSelRange = "{403, 47}";
+			sepNavVisRange = "{0, 457}";
+		};
+	};
+	911F43E30FCEFCC70064B34D /* ShloakViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1428}}";
+			sepNavSelRange = "{2185, 0}";
+			sepNavVisRange = "{1588, 787}";
+			sepNavWindowFrame = "{{15, 81}, {1390, 792}}";
 		};
 	};
 }

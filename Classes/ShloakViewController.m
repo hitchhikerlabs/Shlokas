@@ -10,7 +10,7 @@
 
 
 @implementation ShloakViewController
-@synthesize sLabel, hLabel, lLabel, oLabel, kLabel, aLabel;
+@synthesize sLabel, hLabel, lLabel, oLabel, kLabel, aLabel, dateLabel;
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -65,6 +65,14 @@
 	[kLabel setFrame:kFrame];
 	[aLabel setFrame:aFrame];
 	[UIView commitAnimations];
+	NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc]
+									   
+									   initWithDateFormat:@"%A, %B %d %Y" allowNaturalLanguage:NO] autorelease];
+	
+	NSDate *date = [NSDate date];
+	
+	NSString *formattedDateString = [dateFormatter stringFromDate:date];
+	dateLabel.text = formattedDateString;
 }
 
 
@@ -95,6 +103,7 @@
 	[oLabel release];
 	[kLabel release];
 	[aLabel release];
+	[dateLabel release];
 }
 
 

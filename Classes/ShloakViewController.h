@@ -10,10 +10,10 @@
 
 
 @interface ShloakViewController : UIViewController {
-	IBOutlet UILabel *sLabel, *hLabel, *lLabel, *oLabel, *kLabel, *aLabel;
+	IBOutlet UILabel *sLabel, *hLabel, *lLabel, *oLabel, *kLabel, *aLabel, *dateLabel;
 }
 
-@property (nonatomic, retain) IBOutlet UILabel *sLabel, *hLabel, *lLabel, *oLabel, *kLabel, *aLabel;
+@property (nonatomic, retain) IBOutlet UILabel *sLabel, *hLabel, *lLabel, *oLabel, *kLabel, *aLabel, *dateLabel;
 
 -(IBAction) makeItFav;
 -(IBAction) emailSomeone;
